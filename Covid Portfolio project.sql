@@ -130,3 +130,6 @@ join PortfolioProject..covid_vaccinations$ vac
     on dea.location = vac.location
     and dea.date = vac.date
 WHERE dea.continent iS not null
+
+SELECT *
+FROM percentapopulationvaccinated
